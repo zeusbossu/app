@@ -8,7 +8,7 @@ from threading import Thread
 import requests
 
 # === Variabile direct în cod ===
-BOT_TOKEN = "MTM3ODEyNTg2MTQ0NTgyODYxOA.GaKqzo.tDf6Mq0hon9Whjvh1EnjvMGaaM21Fs72n2t2l4"
+BOT_TOKEN = "MTM3ODEyNTg2MTQ0NTgyODYxOA.GZ_tS_.Hx4uU_AOOqkPBa2W-Ycc52vfO733v71vURM5aw"
 SECRET_KEY = "0If6x7bvlUfh6GPpLvIALQLOlClaPaHH"
 LOG_CHANNEL_ID = 1363927051375214754
 ADMIN_ROLE_IDS = [987654321098765432]
@@ -204,3 +204,4 @@ if __name__ == "__main__":
     Thread(target=run_flask).start()
     print("[INFO] Pornesc botul Discord...")
     bot.run(BOT_TOKEN)
+
