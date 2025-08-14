@@ -6,7 +6,7 @@ from flask import Flask, request, jsonify
 from threading import Thread
 
 # === Variabile direct în cod ===
-BOT_TOKEN = "MTM3ODEyNTg2MTQ0NTgyODYxOA.G6nVFy.3lzPJPDK-awDNL0C82X0uLmvTxpZippp-pEfJQ"
+BOT_TOKEN = "MTM3ODEyNTg2MTQ0NTgyODYxOA.GzDdVh.lsA7NZhfxaeQT1j75xRXnElERJ1QwWE30nbJAI"
 SECRET_KEY = "0If6x7bvlUfh6GPpLvIALQLOlClaPaHH"
 LOG_CHANNEL_ID = 1363927051375214754
 ADMIN_ROLE_IDS = [987654321098765432]
@@ -158,4 +158,5 @@ def run_flask():
 if __name__ == "__main__":
     Thread(target=run_flask).start()
     print("[INFO] Pornesc botul Discord...")
+
     bot.run(BOT_TOKEN)
